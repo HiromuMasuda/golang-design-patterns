@@ -13,6 +13,15 @@ adaptという単語は日本語で「適合させる」という意味で、ada
 > - [Adapterパターン｜techscore](http://www.techscore.com/tech/DesignPattern/Adapter/Adapter1.html/)
 
 
+## 10. Strategyパターン
+Strategy パターンを利用することで、戦略の切り替えや追加が簡単に行えるようになります。
+
+Strategy パターンでは、戦略の部分を意識して別クラスとして作成するようにしています。戦略x部分を別クラスとして作成しておき、戦略を変更したい場合には、利用する戦略クラスを変更するという方法で対応します。
+
+> - [Strategy Golang Example](./strategy/strategy.go)
+> - [Strategyパターン｜techscore](http://www.techscore.com/tech/DesignPattern/Strategy.html/)
+
+
 ## 15. Facadeパターン
 
 Facadeパターンは、既存のクラスを複数組み合わせて使う手順を、「窓口」となるクラスを作ってシンプルに利用できるようにするパターンです。
