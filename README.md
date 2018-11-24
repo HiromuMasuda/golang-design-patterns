@@ -12,6 +12,12 @@ adaptという単語は日本語で「適合させる」という意味で、ada
 > - [Adapter Golang Example - Delegation](./adapter/adapter_delegation.go)
 > - [Adapterパターン｜techscore](http://www.techscore.com/tech/DesignPattern/Adapter/Adapter1.html/)
 
+## 3. TemplateMethodパターン
+
+TemplateMethod パターンは、テンプレートの機能を持つパターンです。スーパークラスで処理の枠組みのみを定め、その具体的内容実装はサブクラスに任せます。処理の大枠の手順に変更がない場合 TemplateMethod パターンの利用価値が高くなります。
+
+> - [TemplateMethod Golang Example](./template_method/template_method.go)
+> - [TemplateMethod パターン｜techscore](http://www.techscore.com/tech/DesignPattern/TemplateMethod.html/)
 
 ## 10. Strategyパターン
 Strategy パターンを利用することで、戦略の切り替えや追加が簡単に行えるようになります。

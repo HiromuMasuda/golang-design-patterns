@@ -4,6 +4,7 @@ import (
 	"./adapter"
 	"./facade"
 	"./strategy"
+	"./template_method"
 )
 
 func main() {
@@ -11,4 +12,5 @@ func main() {
 	adapter.RunInheritance()
 	facade.Run()
 	strategy.Run()
+	template_method.Run()
 }
