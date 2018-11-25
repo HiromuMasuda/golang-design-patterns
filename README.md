@@ -19,6 +19,12 @@ TemplateMethod パターンは、テンプレートの機能を持つパター�
 > - [TemplateMethod Golang Example](./template_method/template_method.go)
 > - [TemplateMethod パターン｜techscore](http://www.techscore.com/tech/DesignPattern/TemplateMethod.html/)
 
+## 5. Singletonパターン
+Singletonパターンは、クラスのインスタンスが1つしかないことを保証したい場合に用いられます。 Singletonパターンでは、コンストラクタを private とすることで、他クラスから新たにインスタンスが生成されないような構造とすることで、インスタンスの生成を制御します。
+
+> - [Singleton Golang Example](./singleton/singleton.go)
+> - [Singleton パターン｜techscore](http://www.techscore.com/tech/DesignPattern/Singleton.html/)
+
 ## 10. Strategyパターン
 Strategy パターンを利用することで、戦略の切り替えや追加が簡単に行えるようになります。
 
